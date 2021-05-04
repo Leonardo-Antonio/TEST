@@ -2,7 +2,7 @@ version: "3.3"
 
 services:
   api-test:
-    image: leo2001/api-test:v2
+    image: leo2001/leo2001/api-test-arm-v7:v2
     tty: true
     stdin_open: true
     container_name: api-test

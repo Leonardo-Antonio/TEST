@@ -5,6 +5,7 @@ services:
     image: leo2001/api-test-arm-v7:v2
     tty: true
     stdin_open: true
+    restart: always
     container_name: api-test
     ports:
     - 8080:8080
